@@ -189,6 +189,16 @@ main main {
   opacity: 1;
 }
 
+.task-text {
+  font-size: 14px;
+  color: black;
+}
+
+.completed-task {
+  text-decoration: line-through;
+  opacity: 0.5;
+}
+
 /* responsiveness */
 @media screen and (max-width: 480px) {
   nav {

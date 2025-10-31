@@ -2,7 +2,7 @@ function TaskItem({ task, onToggle, onDelete }) {
   // task text with conditional styling
   let textClass = "task-text";
   if (task.completed) {
-    textClass += "completed-task";
+    textClass += " completed-task";
   }
 
   return (
